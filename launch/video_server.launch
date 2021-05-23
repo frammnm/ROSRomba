@@ -1,0 +1,5 @@
+<launch>
+  <!-- <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/> -->
+  <node pkg="robot_gui_bridge" type="video_server.py"  name="video_server_00" args="" output="screen"></node>
+
+</launch>
