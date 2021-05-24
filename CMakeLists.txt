@@ -106,6 +106,8 @@ catkin_package(
 #  LIBRARIES robot_gui_bridge
 #  CATKIN_DEPENDS rosbridge_server
 #  DEPENDS system_lib
+  CATKIN_DEPENDS
+    sensor_msgs
 )
 
 ###########
